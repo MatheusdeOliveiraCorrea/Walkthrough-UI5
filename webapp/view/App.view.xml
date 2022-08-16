@@ -1,0 +1,23 @@
+<mvc:View
+
+   controllerName="sap.ui.demo.walkthrough.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc">
+
+   <Input
+      id = "input"
+      value="{/recipient/name}"
+      description="Olá {/recipient/name}"
+      valueLiveUpdate="true"
+      width="100%"/>
+      
+
+   <Button
+      text="Mostrar Mensagem Alerta do JS"
+      press=".onMostrarMensagemAlertaJavaScript"/>
+
+    <Button text="{i18n>showHelloButtonText}" press= "onBotaoDois"/>
+
+
+      
+</mvc:View>

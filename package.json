@@ -1,0 +1,23 @@
+{
+  "name": "sap-ui5-walkthrough",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusdeOliveiraCorrea/SAP-UI5-Walkthrough.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusdeOliveiraCorrea/SAP-UI5-Walkthrough/issues"
+  },
+  "homepage": "https://github.com/MatheusdeOliveiraCorrea/SAP-UI5-Walkthrough#readme",
+  "devDependencies": {
+    "@ui5/cli": "^2.14.10"
+  }
+}
