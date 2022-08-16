@@ -2,22 +2,29 @@
 
    controllerName="sap.ui.demo.walkthrough.controller.App"
    xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc">
+   xmlns:mvc="sap.ui.core.mvc"
+   displayBlock="true">
+<Shell>
+   <App>
+      <pages>
+         <Page title="{i18n>TituloDaPagina}">
+            <content>
+               <Panel headerText="{i18n>TituloDoPainel}" >
+                  
+                  <content>   
+                     <Input class="botaoPadrao" value="{/recipient/name}" width="50%" valueLiveUpdate="true"/>
+                     <Button text="{i18n>BotaoOlaTexto}" press="onMostrarMensagemOla"/>
+                  </content>
 
-   <Input
-      id = "input"
-      value="{/recipient/name}"
-      description="Olá {/recipient/name}"
-      valueLiveUpdate="true"
-      width="100%"/>
-      
+                  <content>
+                     <Input class="botaoPadrao" value="{/recipient/name}" width="50%" valueLiveUpdate="true" />
+                     <Button text= "{i18n>BotaoOiTexto}" press="onMostrarMensagemOi"/> 
+                  </content>
 
-   <Button
-      text="Mostrar Mensagem Alerta do JS"
-      press=".onMostrarMensagemAlertaJavaScript"/>
-
-    <Button text="{i18n>showHelloButtonText}" press= "onBotaoDois"/>
-
-
-      
+               </Panel>
+            </content>
+         </Page>
+      </pages>
+   </App>
+</Shell>
 </mvc:View>
