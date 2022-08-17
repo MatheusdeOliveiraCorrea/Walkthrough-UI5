@@ -1,0 +1,18 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.UsuarioList" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+
+    <List id="listaDeUsuarios" class="sapUiResponsiveMargin" width="auto" items="{usuario>/Usuarios}">
+        <headerToolbar>
+
+            <Toolbar>
+               <Title text="Lista De Usuarios"/>
+               <ToolbarSpacer/>
+               <SearchField width="50%" search=".onFiltrarUsuarios"/>
+            </Toolbar>
+         </headerToolbar>
+
+        <items>
+            <ObjectListItem title="{usuario>Nome}" icon="sap-icon://account"/>
+        </items>
+
+    </List>
+</mvc:View> 

@@ -1,30 +1,7 @@
-<mvc:View
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.App" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" displayBlock="true">
 
-   controllerName="sap.ui.demo.walkthrough.controller.App"
-   xmlns="sap.m"
-   xmlns:mvc="sap.ui.core.mvc"
-   displayBlock="true">
-<Shell>
-   <App class="MeuApp">
-      <pages>
-         <Page title="{i18n>TituloDaPagina}">
-            <content>
-               <Panel headerText="{i18n>TituloDoPainel}" >
-                  
-                  <content>   
-                     <Input value="{/recipient/name}" width="50%" valueLiveUpdate="true"/>
-                     <Button class="BotaoSAP" text="{i18n>BotaoOlaTexto}" press="onMostrarMensagemOla"/>
-                  </content>
+   <Shell>
+      <App class="myAppDemoWT" id="app" />
+   </Shell>
 
-                  <content>
-                     <Input value="{/recipient/name}" width="50%" valueLiveUpdate="true" />
-                     <Button class="BotaoSAP" text= "{i18n>BotaoOiTexto}" press="onMostrarMensagemOi"/> 
-                  </content>
-
-               </Panel>
-            </content>
-         </Page>
-      </pages>
-   </App>
-</Shell>
 </mvc:View>

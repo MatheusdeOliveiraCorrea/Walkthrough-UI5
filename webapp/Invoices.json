@@ -1,0 +1,44 @@
+{
+    "Invoices": [
+      {
+        "ProductName": "Abacaxi",
+        "Quantity": 21,
+        "ExtendedPrice": 87.2,
+        "ShipperName": "Fun Inc.",
+        "ShippedDate": "2015-04-01T00:00:00",
+        "Status": "A"
+      },
+      {
+        "ProductName": "Leite",
+        "Quantity": 41,
+        "ExtendedPrice": 10,
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-02-18T00:00:00",
+        "Status": "B"
+      },
+      {
+        "ProductName": "Feijão enlatado",
+        "Quantity": 38,
+        "ExtendedPrice": 68.5,
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-03-02T00:00:00",
+        "Status": "B"
+      },
+      {
+        "ProductName": "Salada",
+        "Quantity": 29,
+        "ExtendedPrice": 80.45,
+        "ShipperName": "ACME",
+        "ShippedDate": "2015-04-12T00:00:00",
+        "Status": "C"
+      },
+      {
+        "ProductName": "Pão",
+        "Quantity": 10,
+        "ExtendedPrice": 27.5,
+        "ShipperName": "Fun Inc.",
+        "ShippedDate": "2015-01-27T00:00:00",
+        "Status": "A"
+      }
+    ]
+  }
